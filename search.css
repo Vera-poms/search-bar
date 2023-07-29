@@ -3,42 +3,7 @@
 *::after {
   box-sizing: border-box;
 }
-body {
-  background: linear-gradient(
-    to right,
-    rgba(246, 168, 226, 0.7),
-    rgba(53, 41, 130, 0.9)
-  );
-}
-.search-wrapper {
-  display: flex;
-  flex-direction: column;
-  gap: 0.25rem;
-}
-input {
-  font-size: 1rem;
-}
-.user-cards {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-  gap: 0.25rem;
-  margin-top: 1rem;
-}
-.cards {
-  border: 1px solid rgb(41, 37, 56);
-  background-color: rgb(239, 237, 244);
-  padding: 0.1rem;
-}
-.cards:hover {
-  border: 1px solid rgb(184, 191, 243);
-}
-.cards > .header {
-  margin-bottom: 0.25rem;
-}
-.cards > .body {
-  font-size: 0.8rem;
-  color: #777;
-}
+
 .hide {
   display: none;
 }
